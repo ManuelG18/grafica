@@ -1,0 +1,70 @@
+body{
+	/*background-image: url(/TMC/images/BG10.png);*/
+	/*background-color: rgb(55, 55, 55);*/
+	font-family: Arial;
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+	padding:0px;
+}
+
+h1, h2, h3, h4, p, b, li, q{
+	margin:auto;
+}
+
+.dvTit{
+	color: rgb(0,59,18);
+	background-color: rgba(224,255,233, 95%);
+	display:block;
+	margin:auto;
+	padding:0.7%;
+	border-radius:15px;
+    -moz-border-radius:10px;
+    -webkit-border-radius: 10px;
+}
+
+h1, h2, #tc1{
+	text-align: center;
+}
+
+canvas{
+	width: 40px;
+	height: 30px;
+	background-color: rgba(224,255,233, 95%);
+	/*background-color: #000000;*/
+	display:block;
+	margin:auto;
+	padding:0.7%;
+	border-radius:15px;
+    -moz-border-radius:10px;
+    -webkit-border-radius: 10px;
+}
+
+script{
+	width: 40px;
+	height: 30px;
+}
+
+table, th, td{
+	/*border: 1px #DCDBF0 solid;*/
+	padding:0.3em;
+	margin:auto;
+}
+.boton{
+	width: 200px;
+	height: 30px;
+	background-color: rgba(39, 198, 66, 0.2);
+	color: rgb(0,59,18);
+	margin-bottom: 1%;
+	margin-left: 0.5%;
+	border: 1px solid;
+	border-radius:10px;
+    -moz-border-radius:5px;
+    -webkit-border-radius: 5px;
+}
+
+.boton:hover{
+	background-color: rgba(39, 198, 66, 0.2);
+	cursor: pointer;
+	color: rgba(7, 150, 33, 1);
+}

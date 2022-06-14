@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Control de datos | ECBD_U5A4</title>
+	<link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<body>
+	<div class="dvTit"><h1>Control de datos en Dash</h1></div>
+	<br><br><center>
+	<div class="dvTit"><br>
+		<form method="GET" action="update.php">
+			<table>
+				<h2>Informaci&oacute;n sobre los promedios</h2>
+				<tr>
+					<td>
+						<p>Promedio a modificar:<p>
+					</td>
+					<td>
+						<select type="text" name="num" required>
+							<option value="7">7</option>
+							<option value="8">8</option>
+							<option value="9">9</option>
+							<option value="10">10</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p>Cantidad de alumnos:</p>
+					</td>
+					<td>
+						<input type="number" name="can" required>
+					</td>
+				</tr>
+			</table><br>
+			<input class="boton" type="submit" name="submit" value="Guardar"><br>
+		</form>
+	</div>
+	<div class="dvTit"><br>
+		<form method="GET" action="updateCirculo.php">
+			<table>
+				<h2>Informaci&oacute;n sobre los estudiantes</h2>
+				<tr>
+					<td>
+						<p>Informaci&oacute; a modificar:<p>
+					</td>
+					<td>
+						<select type="text" name="gen" required>
+							<option value="Hombres">Hombre</option>
+							<option value="Mujeres">Mujer</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p>Cantidad de alumnos:</p>
+					</td>
+					<td>
+						<input type="number" name="can" required>
+					</td>
+				</tr>
+			</table><br>
+			<input class="boton" type="submit" name="submit" value="Guardar"><br>
+		</form>
+	</div></center>
+</body>
+</html>
