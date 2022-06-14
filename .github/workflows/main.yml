@@ -35,6 +35,6 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           context: .
-          file: .grafica/grafica/Dockerfile
+          file: ./grafica/Dockerfile
           push: true
           tags: ${{ secrets.DOCKER_HUB_USERNAME }}/grafica:latest
